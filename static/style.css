@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.form input, .form button {
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    max-width: 250px;
+    box-sizing: border-box;
+}
+
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #218838;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background: #333;
+    color: white;
+}
+
+.delete-btn {
+    color: red;
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .form input, .form button {
+        max-width: 100%;
+    }
+
+    table, th, td {
+        font-size: 14px;
+    }
+}
