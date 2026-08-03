@@ -57,8 +57,34 @@ th {
 }
 
 .delete-btn {
-    color: red;
-    text-decoration: none;
+    background: #dc3545;
+    color: white;
+    padding: 6px 12px;
+}
+
+.delete-btn:hover {
+    background: #c82333;
+}
+
+.flashes {
+    list-style: none;
+    padding: 0;
+}
+
+.flash {
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+.flash-error {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.flash-success {
+    background: #d4edda;
+    color: #155724;
 }
 
 @media (max-width: 600px) {
